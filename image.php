@@ -3,6 +3,7 @@
 $im = imagecreatetruecolor(200, 200);
 $white = imagecolorallocate($im, 255, 255, 255);
 
+# Creating comment in code to force webscale to init jenkins build
 $deployment = getenv("COLOR");
 //$deployment = 'green';
 
